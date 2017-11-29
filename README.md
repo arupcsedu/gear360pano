@@ -54,9 +54,15 @@ Requirements:
 
 Use your distributions' package manager to install [Hugin](http://hugin.sourceforge.net/). Example for Ubuntu:
 
-    apt-get install hugin
+    sudo apt-get install hugin
 
-Do the same for ```ffmpeg``` if you want video stitching, it is usually installed on many systems.
+Install libjpeg, libpng and libtiff
+
+    sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
+
+For Video Stitching, install ffmpeg
+
+    sudo apt-get install ffmpeg
 
 [multiblend](http://horman.net/multiblend/) is a bit more tricky. In most cases you will have to manually
 compile it and install. After unpacking read ```build.txt```... or do this:
